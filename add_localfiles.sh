@@ -24,7 +24,7 @@ fi
 if [ "$#" = "1" ]; then
   INSTALLDIR="$1"
 fi
-
+#eso es
 echo "" >> $NEWCONFIG
 echo "<ossec_config>" >> $NEWCONFIG
 WriteLogs "add"
